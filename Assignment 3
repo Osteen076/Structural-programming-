@@ -7,7 +7,8 @@ next= first + second;
 while (next <= n) {		
 printf("%d, ", next);		
 first=second;		
-second=next;		next= first + second;	}}
+second=next;		
+next= first + second;	}}
 int main() {	
 int n;		
 printf("Enter the value of n: ");	
