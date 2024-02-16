@@ -1,2 +1,17 @@
 #include <stdio.h>
-void generateFibonacci(int n) {	int first = 0, second = 1,next;		printf("Fibonacci Series up to %d:\n", n);	printf("%d, %d, ",first, second);		next= first + second;	while (next <= n) {		printf("%d, ", next);		first=second;		second=next;		next= first + second;	}}int main() {	int n;		printf("Enter the value of n: ");	scanf("%d", &n);		generateFibonacci(n);		return 0;}
+void generateFibonacci(int n) {	
+int first = 0, second = 1,next;		
+printf("Fibonacci Series up to %d:\n", n);	
+printf("%d, %d, ",first, second);		
+next= first + second;	
+while (next <= n) {		
+printf("%d, ", next);		
+first=second;		
+second=next;		next= first + second;	}}
+int main() {	
+int n;		
+printf("Enter the value of n: ");	
+scanf("%d", &n);		
+generateFibonacci(n);		
+return 0;
+}
